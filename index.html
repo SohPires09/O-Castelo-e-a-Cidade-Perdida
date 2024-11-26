@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Sevillana&display=swap" rel="stylesheet">
+    <title>O Castelo da Cidade Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p> No século XVII, o castelo Saint Michel foi abandonado após uma maldição. Agora, você é um aventureiro que recebe o mapa que leva à cidade perdida de Saint Michel, escondida dentro do Castelo. Seu objetivo é encontrar o tesouro de Saint Michel e quebrar a maldição. 
+                Você encontra dois caminhos, qual você vai escolher?</p>
+                <button class="btn-proximo" data-proximo="1"> Porta principal</button>
+                <button class="btn-proximo" data-proximo="2"> Jardim secreto</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p> Você entrou pela porta principal, onde você vai encontrar o salão do Trono.</p>
+                <button class="btn-proximo" data-proximo="3"> Continuar explorando e seguir em frente</button>
+                <button class="btn-proximo" data-proximo="4"> Desistir de encontrar o tesouro e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p> Você decide explorar o Jardim Secreto, onde você pode encontrar pistas sobre a Cidade Perdida.</p>
+            <button class="btn-proximo" data-proximo="5"> Continuar a procurar as pistas</button>
+            <button class="btn-proximo" data-proximo="6"> Procurar uma antiguidade</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você encontra um salão vazio, mas ouve um barulho vindo da cozinha. Lá, encontra um criado o que oferece uma pista sobre a localização da chave do Castelo.</p>
+            <button class="btn-proximo" data-proximo="7"> Você pega a chave e continua a achar pistas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> Você encontra uma porta escondida atrás de uma fonte.</p>
+            <button class="btn-proximo" data-proximo="12">Seguir para um Labirinto Subterrâneo </button>
+            <button class="btn-proximo" data-proximo="9">Seguir para o Mercado Antigo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você encontrou um túmulo como a inscrição que menciona a cidade perdida. Seguindo a inscrição, você encontra uma passagem secreta. </p>
+            <button class="btn-proximo" data-proximo=" 10">Seguir para o Mercado Antigo </button>
+            <button class="btn-proximo" data-proximo="8">Visitar o Templo do Sol </button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Com a chave em mãos você decide continuar procurando aventuras e acaba achando um labirinto.</p>
+            <button class="btn-proximo" data-proximo="12">Seguir para um Labirinto Subterrâneo </button>
+           
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você encontra o tesouro mas é perseguido por uma criatura mistica, e acaba se escondendo em um Mercado Antigo.</p>
+            <button class="btn-proximo" data-proximo="9"> Seguir para o Mercado Antigo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você descobre que a maldição foi causada por um feiticeiro e precisa encontrar o livro de feitiços para quebrá-la.</p>
+            <button class="btn-proximo" data-proximo="10">Tentar uma negociação </button>
+            <button class="btn-proximo" data-proximo="11">Batalha Mágica</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O feiticeiro pede um objeto valioso em troca de quebrar a maldição.</p>
+            <button class="btn-proximo" data-proximo="12">Você consegue quebrar a maldição e tenta encontrar a saída, e acaba encontrando um labirinto.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você precisa usar suas habilidades mágicas para derrotar o feiticeiro.</p>
+            <button class="btn-proximo" data-proximo="12">Você consegue quebrar a maldição e tenta encontrar a saída, e acaba encontrando um labirinto.</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Seguir para um Labirinto Subterrâneo</p>
+            <button class="btn-proximo" data-proximo="13">Você chega ao centro do labirinto e encontra passagens à direita e à esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Seguir à direita ou à esquerda.</p>
+            <button class="btn-proximo" data-proximo="14">Seguir o caminho á direita</button>
+            <button class="btn-proximo" data-proximo="15">Seguir o caminho á esquerda</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Você se depara com uma parede e decide voltar até o centro do labirinto.</p>
+            <button class="btn-proximo" data-proximo="15">Voltar e seguir  o caminho á esquerda.</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Voltar e seguir  o caminho á esquerda.</p>
+            <button class="btn-proximo" data-proximo="16">Você caminha mais um pouco e encontra uma porta de metal. Você a abre e se depara com uma entrada para retornar ao castelo. Você entra, retorna ao castelo.</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Você caminha mais um pouco e encontra uma porta de metal. Você a abre e se depara com uma entrada para retornar ao castelo. Você entra, retorna ao castelo.</p>
+            <button class="btn-proximo" data-proximo="17">Você quebra a maldição, encontra o tesouro e o castelo é restaurado. Parabéns, aventureiro cumpriu sua missão.</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <img src="img/cenario-passo17-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você quebra a maldição, encontra o tesouro e o castelo é restaurado. Parabéns, aventureiro cumpriu sua missão.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
